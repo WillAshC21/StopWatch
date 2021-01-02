@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  background: linear-gradient(90deg, rgba(255,149,3,1) 0%, rgba(249,249,9,1) 52%, rgba(16,255,166,1) 96%);
+}
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+#clock-display {
+  background-color: #ccc;
+  width: 95%;
+}
+#show-clock {
+  font-size: 64px;
+  letter-spacing: 10px;
+}
+#clock-buttons {
+  text-align: center;
+}
+#start, #reset, #stop {
+  padding: 5px 28px;
+  font-weight: bolder;
+  box-shadow: 5px 3px black;
+}
+
+#start {
+  border-color: green;
+  color: green;
+  background-color: white;
+}
+#reset {
+  border-color: yellow;
+  color: yellow;
+  background-color: white;
+}
+
+#stop {
+  border-color: red;
+  color: red;
+  background-color: white;
+}
